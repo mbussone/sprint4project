@@ -25,7 +25,7 @@ st.plotly_chart(fig)
 fig = px.histogram(df, x='model_year', title='Model Year Distribution', color='condition')
 st.plotly_chart(fig)
 
-st.header("Manufacturer", anchor=None, help=None, divider="blue")
+st.header("Manufacturer")
 fig = px.histogram(df, x='manufacturer', title='Manufacturer Distribution')
 st.write(fig)
 st.header('Vehicle types by Manufacturer')
